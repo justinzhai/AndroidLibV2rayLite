@@ -5,8 +5,8 @@ asset:
 	bash gen_assets.sh download
 	mkdir assets
 	cp -v data/*.dat assets/
-	#cd assets;curl https://raw.githubusercontent.com/2dust/AndroidLibV2rayLite/master/data/geosite.dat > geosite.dat		
-	#cd assets;curl https://raw.githubusercontent.com/2dust/AndroidLibV2rayLite/master/data/geoip.dat > geoip.dat
+	#cd assets;curl https://raw.githubusercontent.com/justinzhai/AndroidLibV2rayLite/master/data/geosite.dat > geosite.dat
+	#cd assets;curl https://raw.githubusercontent.com/justinzhai/AndroidLibV2rayLite/master/data/geoip.dat > geoip.dat
 
 fetchDep:
 	go get -v golang.org/x/mobile/cmd/...
@@ -19,13 +19,13 @@ export ANDROID_HOME
 PATH:=$(PATH):$(GOPATH)/bin
 export PATH
 downloadGoMobile:
-	cd ~ ;curl -L https://raw.githubusercontent.com/2dust/AndroidLibV2rayLite/master/ubuntu-cli-install-android-sdk.sh | sudo bash -
+	cd ~ ;curl -L https://raw.githubusercontent.com/justinzhai/AndroidLibV2rayLite/master/ubuntu-cli-install-android-sdk.sh | sudo bash -
 	ls ~
 	ls ~/android-sdk-linux/
 
 BuildMobile:
 	gomobile init
-	gomobile bind -v -ldflags='-s -w' github.com/2dust/AndroidLibV2rayLite
+	gomobile bind -v -ldflags='-s -w' github.com/justinzhai/AndroidLibV2rayLite
 
 all: asset pb fetchDep
 	@echo DONE

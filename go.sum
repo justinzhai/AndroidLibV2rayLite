@@ -1,6 +1,6 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
-github.com/2dust/AndroidLibV2rayLite v0.0.0-20191023082910-4dcd834a643a h1:0xD1U1fBKqVgtAZWiGHG26i4oDJyrvq1imsUDr2pmBo=
-github.com/2dust/AndroidLibV2rayLite v0.0.0-20191023082910-4dcd834a643a/go.mod h1:ij8GEKbI7pK7R8DtPrhBSo/RO9iueM96N0ko2H9DtEg=
+github.com/justinzhai/AndroidLibV2rayLite v0.0.0-20191023082910-4dcd834a643a h1:0xD1U1fBKqVgtAZWiGHG26i4oDJyrvq1imsUDr2pmBo=
+github.com/justinzhai/AndroidLibV2rayLite v0.0.0-20191023082910-4dcd834a643a/go.mod h1:ij8GEKbI7pK7R8DtPrhBSo/RO9iueM96N0ko2H9DtEg=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
